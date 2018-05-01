@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "tslint-microsoft-contrib"
+  ],
+  "rules": {
+    "mocha-no-side-effect-code": false,
+    "missing-jsdoc": false,
+    "no-relative-imports": false,
+    "export-name": false,
+    "promise-function-async": false,
+    "no-void-expression": false,
+    "no-redundant-jsdoc": false,
+    "prefer-type-cast": false,
+    "linebreak-style": false,
+    "import-name": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "indent": [true, "spaces", 4],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ],
+    "typedef": [
+      true,
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ]
+  }
+}
